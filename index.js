@@ -3,7 +3,7 @@ const http = require('http');
 const fs = require('fs');
 
 //const hostname = '127.0.0.1';
-const hostname = '';
+const hostname = 'https://souradeepsingha.github.io/backend/';
 const port = 3000;
 const home = fs.readFileSync('index.html')
 const about = fs.readFileSync('./about.html')
